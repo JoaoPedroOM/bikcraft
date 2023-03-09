@@ -6,3 +6,82 @@
 :root{
   font-size: 62.5%;
 }
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.header-bg{
+  background-color: #000;
+}
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+
+}
+.header-menu a{
+  color: #fff;
+  display: inline-block;
+  padding: 1.6rem 0;
+  font-size: 1.6rem;
+  position: relative;
+}
+
+.header-menu a::after{
+  content:"" ;
+  display: block;
+  height: .2rem;
+  width: 0%;
+  background: #ffffff;
+  margin-top: .4rem;
+  transition: 0.3s;
+  position: absolute;
+}
+.header-menu a:hover:after{
+  width: 100%;
+}
+
+@media (max-width:800px){
+
+  .header-menu{
+    gap: 2rem;
+  }
+  .header-menu a{
+    background: #111; 
+    padding: 1.2rem 1.6rem;
+    border-radius: .4rem;
+   }
+   .header-menu a:hover{
+    background-color: #2E2E2E;
+   }
+   .header a::after{
+    display: none;
+   }
+}
+@media (max-width:600px){
+
+  .header-menu{
+    gap: 1.2rem;
+  }
+  .header-menu a{
+    padding: .8rem 1.2rem;
+    font-size: 1rem;
+   }
+}
