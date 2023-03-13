@@ -1,6 +1,5 @@
 .introducao-bg{
-  background-color: #000;
-  color: #fff;
+  background-color: var(--cor-12);
   box-shadow: inset 0 -120px #ffffff;
 }
 
@@ -26,40 +25,16 @@
 
 .introducao h1{
   margin-bottom: 3.2rem; 
-  font-size: 6.4rem;
-  line-height: 1.125;
-  font-family: 'Poppins';
-  font-weight: 600;
-}
-
-.introducao h1 span{
-  color: #FFBB00;
 }
 
 .introducao p{
   margin-bottom: 2rem; 
-  font-size: 2.4rem;
-  line-height: 1.5;
-  color: #b2b2b2;
-  font-family: 'Roboto';
-  font-weight: 400;
-}
-
-
-@media (max-width: 1200px)
-{
-  .introducao h1{
-    font-size: 4.8rem;
-  }
-  .introducao p{
-    font-size: 1.8rem;
-  }
 }
 
 @media (max-width: 800px)
 {
   .introducao-bg{
-    background-color: #111;
+    background-color:var(--cor-11);
     padding: 4rem;
     box-shadow: inset 0 -6px #ffffff;
   }
@@ -71,7 +46,6 @@
     padding-bottom: 0px;
   }
   .introducao h1{
-    font-size: 3.2rem;
     margin-bottom: 1.6rem;
   }
   .introducao img{
