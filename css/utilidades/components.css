@@ -29,6 +29,19 @@
 .botao.secundario:hover{
   background: var(--cor-9);
 }
+.botao.seta{
+  display: flex;
+  align-items: center;
+}
+.botao.seta::after{
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  margin-left: 12px;
+  background:url("../../img/icones/arrow.svg");
+
+}
 
 @media(max-width:600px)
 {
@@ -48,4 +61,28 @@
 }
 .link:hover{
   color: var(--cor-0);
+}
+
+/* Titulo interno */
+
+.titulo-bg{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: var(--cor-11);
+}
+
+.titulo p{
+  margin-bottom: .4rem;
+}
+
+@media(max-width: 800px){
+  .titulo-bg{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .titulo p{
+    font-size: 1.6rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
