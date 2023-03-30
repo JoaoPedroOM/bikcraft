@@ -24,6 +24,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - Git e Github
+  
+## 💻 Projeto 
+  A página foi criada com HTML e CSS para que você possa navegar facilmente e encontrar as informações que precisa. O menu de navegação no topo da página permite acessar rapidamente as diferentes seções da loja, incluindo bicicletas, seguros e como entrar em contato conosco.
+
+Na seção de bicicletas, você pode conferir nossos modelos em destaque com imagens, preços e a opção de compra. Também temos outras categorias de bicicletas que podem ser encontradas em nosso menu de navegação.
+
 
 ## 🤝 Contribuições
 
@@ -38,9 +44,4 @@ Este repositório é aberto à contribuições de toda a comunidade. Se você de
 7. Submeta um pull request para o repositório principal, explicando as suas alterações de forma clara e detalhada.
 8. Aguarde a revisão e aprovação do seu pull request.
 
-  
-## 💻 Projeto 
-  A página foi criada com HTML e CSS para que você possa navegar facilmente e encontrar as informações que precisa. O menu de navegação no topo da página permite acessar rapidamente as diferentes seções da loja, incluindo bicicletas, seguros e como entrar em contato conosco.
-
-Na seção de bicicletas, você pode conferir nossos modelos em destaque com imagens, preços e a opção de compra. Também temos outras categorias de bicicletas que podem ser encontradas em nosso menu de navegação.
 
